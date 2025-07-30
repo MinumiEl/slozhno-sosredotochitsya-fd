@@ -349,10 +349,6 @@ span {
         justify-self: start;
 
     }
-    .section_what{
-
-    }
-
 
     .section_who > .section__subtitle,
     .section_who > article.card {
@@ -365,7 +361,8 @@ span {
         grid-row: 1 / 3;
         margin-top: 10px;
     }
-    .card_how{
+
+    .card_how {
         margin-top: 10px;
     }
 
@@ -404,7 +401,8 @@ span {
         gap: 20px;
         margin: 80px 20px 60px;
     }
-    .card-title_what{
+
+    .card-title_what {
         margin-top: 9px;
     }
 
