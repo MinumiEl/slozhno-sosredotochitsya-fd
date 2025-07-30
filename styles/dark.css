@@ -8,15 +8,13 @@
     --color-bg-image: url('../images/cover-image-dark.png');
     --color-title: #db00ff;
     --color-accent: #ff0070;
+    --color-text: #f1b2ce;
     --color-bg-shadow: #ff0070;
     --color-subtitle-h2: #ff0070;
     --color-subtitle-h3: #000028;
     --color-text-default: #f1b2ce;
-    --color-button-hover: rgba(255, 0, 112, 0.4);
+    --color-accent-rgb: rgb(255 0 112 / 0.4);
     --color-title-decor-bg: #ff0070;
-
-    --font-primary: "IBM Plex Mono", monospace;
-    --font-size-theme-menu: 18px;
     --color-subtitle: #ff0070;
     --color-title-decor-text: #fff;
     --color-card-bg: #1f1630;
