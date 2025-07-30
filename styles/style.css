@@ -200,11 +200,14 @@ span {
 
 }
 
-
 .section__title {
+    display: flex;
+    flex-direction: column;
     font-size: var(--font-size-theme-menu-item);
     font-weight: var(--font-weight-bold);
     color: var(--color-subtitle);
+    line-height: var(--line-height);
+    gap: 0;
 }
 
 .cards-group {
@@ -263,6 +266,7 @@ span {
 .section__subtitle {
     margin-bottom: 10px;
 }
+
 
 .gallery {
     width: 100%;
