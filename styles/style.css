@@ -409,6 +409,7 @@ span {
         grid-template-columns: 32% 2fr;
         column-gap: 23px;
         margin: 80px 20px 0;
+        gap: 10px;
 
     }
 
