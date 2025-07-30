@@ -139,7 +139,7 @@ span {
     pointer-events: none;
 }
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
     outline: 1px solid var(--color-accent-rgb);
 }
 
@@ -228,6 +228,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-bottom: 27px;
 
 }
 
@@ -332,19 +333,26 @@ span {
     .section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 60px 20px;
+        margin: 70px 20px;
         padding: 0;
     }
+
     .section_who {
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: start;
+        margin-top: 60px;
     }
 
     .section_who > .section__title {
         grid-column: 1 / 2;
         justify-self: start;
+
     }
+    .section_what{
+
+    }
+
 
     .section_who > .section__subtitle,
     .section_who > article.card {
@@ -355,17 +363,17 @@ span {
     .card-title_how {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
+        margin-top: 10px;
+    }
+    .card_how{
+        margin-top: 10px;
     }
 
-    .card-text, .section__title {
-        margin: 0;
-
-    }
-
-    .card{
+    .card {
         grid-column: 1 / 4;
 
     }
+
     .section_how {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -375,7 +383,7 @@ span {
     .section_how > .section__title {
         grid-column: 1 / 2;
         justify-self: start;
-        margin: 0;
+
     }
 
     .section_how > .section__subtitle,
@@ -395,6 +403,9 @@ span {
         display: flex;
         gap: 20px;
         margin: 80px 20px 60px;
+    }
+    .card-title_what{
+        margin-top: 9px;
     }
 
     .gallery__item {
@@ -461,7 +472,13 @@ span {
         padding-left: 10px;
 
     }
-    .section__title{
+
+
+    .section {
+        margin-right: 10px;
+    }
+
+    .section__title {
         margin-left: 11px;
 
     }
@@ -481,7 +498,13 @@ span {
         grid-row: 2;
         gap: 20px;
         flex-direction: row;
+        margin-left: 10px;
     }
+
+    .section_gallery {
+        margin-left: 30px;
+    }
+
     .section_what {
         display: grid;
         grid-template-rows: auto 1fr;
@@ -493,24 +516,14 @@ span {
         grid-row: 1 / 2;
         justify-self: start;
         align-self: start;
-        margin: 0;
     }
 
-    .cards-columns {
-        grid-column: 2 / 3;
-        grid-row: 1 / 3;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-
-    .cards-column {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .card{
+    .card {
         grid-column: auto;
+    }
+
+    .footer {
+        margin-left: 10px;
     }
 
     .footer__title {
